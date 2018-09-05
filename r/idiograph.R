@@ -1,3 +1,3 @@
 idiograph <- function(x) {
-	return(cat('{',x,'}'));
+	return(paste('{',x,'}',sep=""));
 }
